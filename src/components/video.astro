@@ -1,0 +1,93 @@
+<!-- ============================================ -->
+<!--                   Video                      -->
+<!-- ============================================ -->
+
+<section id="video-1314">
+    <a href="https://drive.google.com/file/d/16oWZgYPTPSV2S21lF-AgvRwPh3-aFxMV/view?usp=drive_link" class="cs-big-link">
+        <!--Background Image-->
+        <picture class="cs-background">
+            <source media="(min-width: 1024px)" srcset="https://i.postimg.cc/6qWfQdDt/david-proof-0138.jpg">
+            <source media="(min-width: 601px)" srcset="https://i.postimg.cc/6qWfQdDt/david-proof-0138.jpg">
+            <source media="(max-width: 600px)" srcset="https://i.postimg.cc/6qWfQdDt/david-proof-0138.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://i.postimg.cc/6qWfQdDt/david-proof-0138.jpg" alt="meeting" width="1920" height="750">
+        </picture>
+        <!--Play Icon-->
+        <picture class="cs-picture">
+            <img class="cs-link-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tax-play.svg" alt="play icon" width="24" height="24">
+        </picture>
+    </a>
+</section>
+
+<style>
+  /*-- -------------------------- -->
+<---           Video            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #video-1314 .cs-big-link {
+        width: 100%;
+        /* 320px - 750px */
+        height: clamp(20rem, 65vw, 46.875rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    #video-1314 .cs-big-link:hover .cs-background img {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    #video-1314 .cs-background {
+        width: 100%;
+        height: 100%;
+        background-color: #1a1a1a;
+        /* clips the img from overflowing the container on hover */
+        overflow: hidden;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    #video-1314 .cs-background img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.64;
+        object-fit: cover;
+        z-index: -1;
+        transition:
+            transform 0.9s,
+            opacity 0.3s;
+    }
+    #video-1314 .cs-picture {
+        /* 60px - 100px */
+        width: clamp(3.75rem, 11vw, 6.25rem);
+        height: clamp(3.75rem, 11vw, 6.25rem);
+        border-radius: 50%;
+        border: 2px solid #bababa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 10;
+        transition:
+            transform 0.3s,
+            box-shadow 0.3s;
+    }
+    #video-1314 .cs-picture:hover {
+        transform: scale(1.1);
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+    }
+    #video-1314 .cs-icon {
+        width: 1.5rem;
+        height: auto;
+        display: block;
+    }
+}
+
+                                  
+</style>
